@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lugrasimo&family=Poppins:wght@300&display=swap');
+body{
+    background-image: url('img/pink2.jpg');
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+    display:flex;
+    align-items: center;
+    margin-top:20px ;
+    flex-direction: column;
+}
+.List{
+    background: whitesmoke;
+    width: 350px;
+    height: 450px;
+    border-radius: 5px;
+    box-shadow: 0px 8px 10px rgba(240, 53, 146, 0.5);
+    padding: 10px;
+    overflow-y: auto;  
+}
+.title{
+   font-style: italic;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #c8c6c6;
+    font-size: 30px;
+    text-align: center;
+}
+#MyInput{
+    width: 300PX;
+    height: 50px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 0 10px;
+    margin: 0 15px;
+    background-color:#c8c6c6;
+}
+
+
+ul li {
+    background: #eee;
+    color:#333;
+    height: 40px;
+    border-radius: 50px;
+    margin: 10px 0 ;
+    padding: 10px;
+    height: 20px;
+    position: relative;
+}
+
+ul .fa-check, .fa-trash{
+    position: absolute ; 
+    cursor : pointer;
+}
+ul .fa-check{
+    right: 40px;
+    color: green;
+}
+ul .fa-trash{
+    right: 15px;
+    color: #ff0033;
+}
+ul .checked {
+    background: lightpink;
+    text-decoration: line-through;
+    transition: .2s;
+}
